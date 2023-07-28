@@ -48,7 +48,6 @@ where t1.Employment_status = 'Active'
 group by t2.Dept
 order by Total_employee desc;
 
-
 /* What are the demographics of our current employees Age */
 select age_band, count(Employee_id) as Total_employee 
 from hris_1
